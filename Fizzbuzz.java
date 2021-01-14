@@ -6,8 +6,12 @@ class Solution {
       List<String> res = new ArrayList<>(n);
 
       for (int i = 0; i <= n; i++) {
-        res.add(String.valueOf(i));
-        System.out.println(i);
+        if (i % 15 == 0) {
+          res.add("FizzBuzz");
+        } else {
+          res.add(String.valueOf(i));
+        }
+        System.out.println(res);
       } // end for 
 
       return res;
