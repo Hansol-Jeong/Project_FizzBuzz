@@ -6,10 +6,11 @@ public class fizzbuzz {
             } else if (i % 5 == 0) {
 		System.out.println("buzz");
 	    } else if (i % 15 == 0) {
-		System.out.pringln("fizzbuzz");
+		System.out.println("fizzbuzz");
 	    }else {
                 System.out.println(i);
             }
         }
+	System.out.println("hansol manager :)");
    }
 
